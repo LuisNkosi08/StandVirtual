@@ -1,0 +1,242 @@
+*, h2{
+  font-style:bold;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+p {
+	text-align: justify;
+	font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+	color: #515151;
+}
+body{
+	margin: 0px;
+	background-color:white;
+}
+#geral{
+	margin:0px auto;
+	height:500px;
+	width:600px;
+	margin-top:15px;
+}
+
+#foot{
+
+	background-color: darkblue;
+}
+
+#topo{
+	margin:10px ;
+	height:100px;
+	width:98.9%;	
+}
+#menu ul  {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color:#333;
+	
+}
+
+
+li{float:left;}
+
+#menu li a {
+	display:block;
+	color: white;
+	padding:18px 20px;
+	text-align:center;
+	text-decoration:none;
+	
+}
+
+li a:hover{
+	background-color: #85aac1;
+	
+	
+	
+}
+.active{
+	
+	background-color: #85aac1;	
+}
+
+
+
+#menu{
+	margin: 10px;
+	height:50px;
+	width:98.9%;	
+}
+
+#centro{
+	margin: 10px;
+	height:58%;
+	width:98.7%;		
+}
+#centroA{
+	margin: 10px;
+	/*border-right: solid 1px gray;*/
+	height:97%;
+	width:48.5%;
+	float: left;
+
+}
+#texto{
+	padding-top:3%;
+	float:left;	
+	height: 25%; 
+	width: 70%;
+	margin:5px;		
+}
+#imagem_A{
+	padding-top:3%;
+	float:left;
+	height: 25%; 
+	width: 15%;
+	margin:5px;
+
+}
+#centroB{
+	margin: 10px;
+	/*border: solid 1px gray;*/
+	height:97%;
+	width:48%;
+	float: left;
+}
+
+#rodape{
+	margin: 10px;
+	background-color:#85aac1;
+	height:100px;
+	width:98.9%;
+	text-align: center;
+}
+#copy{
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+
+}
+
+#rodape ul {
+    float: right;
+    display: table;
+}
+
+#rodape ul li {
+	list-style-type: none;
+	padding-top:30px;
+}
+form{
+  border: 4px solid #f1f1f1;
+  margin-top: 10px;
+}
+
+.container {
+  padding: 5px;
+  background-color: #f1f1f1;
+}
+
+#centroB input[type=text], input[type=submit] {
+  width: 60%;
+  padding: 12px;
+  margin: 8px 0;
+   border: 1px solid #ccc;
+}
+#centroB input[type=email]{
+	width: 70%;
+}
+#img{
+	float:right;
+	height: 35%; 
+	width: 35%;
+	margin:5px;
+}
+
+input[type=submit] {
+  background-color: #85aac1;
+  color: white;
+  border: none;
+}
+#contacto, input[type=text],input[type=email], input[type=submit], input[type=number], input[type=date], input[type=password], textarea, select{
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 25%;
+}
+#data_nasc, input[type=date]{
+	 width: 19%;
+}
+input[type=password]{
+	 width: 24%;
+}
+
+#proc{
+  padding: 10px;
+  width: 25%;
+}
+#serv{
+	border: 4px solid #f1f1f1;
+	background-color: #f1f1f1;
+	margin-top:15px;
+	margin-left: 150px;
+	height:100%;
+	width:80%;
+	float:center;
+}
+.text{
+	float:left;	
+	height: 40%; 
+	width: 25%;
+	margin:5px;	
+}
+#serv .imgs{
+	float:left;
+	height: 48%; 
+	width: 72%;
+	margin:5px;
+}
+
+#sobre{
+	background-color: #f1f1f1;
+	margin-top:15px;
+	margin-left: 150px;
+	height:80%;
+	width:80%;
+	float:center;
+}
+.img{
+	float:left;
+	height: 35%; 
+	width: 20%;
+	margin-left: 10%;
+}
+.imgt{
+	float:right;
+	height: 35%; 
+	width: 20%;
+	margin-right: 10%;
+}
+.imge {
+	height: 35%; 
+	width: 20%;
+	margin-left: 40%;
+}
+.textt{
+	height: 50%; 
+	width: 80%;
+	margin-top:22%;	
+	margin-left:10%;	
+
+}
+
+#m{
+	width: 800px;
+	height: 500px;
+	}
+
+
+
+

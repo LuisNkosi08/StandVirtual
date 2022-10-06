@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg .bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/Logo.jpg" alt="Bootstrap" width="50px" height="50px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="font-family:'Times New Roman'; color: rgb(19, 10, 146); font-size: larger;"  class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a  style="font-family:'Times New Roman'; color: rgb(19, 10, 146); font-size: larger;" class="nav-link" href="servicos.html">Serviços</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+    <div class="contacto">
+        <form name=" " action="" style="text-align: center" method="">
+            <div class="container">
+                <h2 style="text-align: center">Entre em contacto connosco:</h2>
+            </div>
+        
+            <div class="container" style="background-color:white">
+                <label>Nome: </label>
+                    <input type="text" required="required" placeholder="Nome..." name="text" required>
+                
+            </div>
+            <div class="container" style="background-color:white">
+                <label>Sexo:</label><td><td>
+                    <input type="radio" placeholder="" name="genero" value="male"> Masculino 
+                    <input type="radio" placeholder="" name="genero" value="Female"> Femenino 
+                
+            </div>
+            <div class="container" style="background-color:white">
+                <label>Nº BI: </label>
+                    <input type="text" placeholder="BI..." id="bi" name="bi" required>
+                
+            </div>
+             <div class="container" style="background-color:white">
+                <label>Telefone:</label>
+                    <input type="number" placeholder="telefone..." name="tel" >
+                
+            </div>
+            <div class="container" style="background-color:white">
+                <label>Data de nascimento: </label>
+                    <input type="date" placeholder="data de nascimento..." name="data_nasc" id="data_nasc" required >
+                
+            </div>
+            <div>
+                <label>Cidade:</label>
+                    <select name="estado"> 
+                        <option >Bengo</option> 
+                        <option >Bié</option> 
+                        <option >Huíla</option> 
+                        <option >Benguela</option> 
+                        <option >Kuanza-Sul</option> 
+                        <option >Kuanza-Norte</option> 
+                        <option >Benguela</option> 
+                        <option >Luanda</option> 
+                        <option >Cuando Cubango</option> 
+                        <option >Malange</option> 
+                        <option >Moxico</option> 
+                        <option >Namibe</option> 
+                        <option >Cunene</option> 
+                        <option >Huambo</option> 
+                        <option >Lunda-Norte</option> 
+                        <option >Lunda-Sul</option> 
+                        <option >Uíge</option> 
+                        <option >Zaire</option> 
+                    </select>
+                    
+            </div>
+            <div class="container" style="background-color:white">
+                <label>Email: </label>
+                    <input type="email" placeholder="Email..." name="mail"  required>
+                
+            </div>
+            <div class="container" style="background-color:white">
+                <label>Password: </label>
+                    <input type="password" placeholder="password" id="pw" name="pw" required="">
+                
+            </div>
+            
+            <div>
+                <label>Descrição:</label><br><textarea class="msg"  rows="5"></textarea><br>
+            </div>
+            <div class="">
+                <input type="submit" value="Enviar" onclick="return validar_formulario">
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126139.30317305464!2d13.2579328!3d-8.8932352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e2!4m0!4m0!5e0!3m2!1spt-PT!2sao!4v1664905684082!5m2!1spt-PT!2sao" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </form>
+
+  
+<footer>
+    <div id= "rodape"> 
+      <div class="sociais">
+          <ul>
+              <li><a href="facebook.com/Luis.Nkosi"><img src="icones/facebook.png" alt="" width="20" height="20"></a></li>
+              <li><a href="twitter.com/Luis_Nkosi"><img src="icones/github.png" alt="" width="20" height="20"></a></li>
+              <li><a href="twitter.com/Luis_Nkosi"><img src="icones/whatsapp.png" alt="" width="20" height="20"></a></li>
+              <li><a href="twitter.com/Luis_Nkosi"><img src="icones/twitter.png" alt="" width="20" height="20"></a></li>
+                  <li><a href="twitter.com/Luis_Nkosi"><img src="icones/twitter.png" alt="" width="20" height="20"></a></li>
+                  <li><a href="instragram.com/luis_moreno_nk"><img src="icones/instagram.png" alt="" width="20" height="20"></a></li>
+          </ul>
+      </div>
+          <div id="copy"> &copy; João Nkosi 2022 </div>
+      </div>
+    </footer>
+   
+</body>
+</html>
